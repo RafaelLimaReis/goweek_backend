@@ -1,0 +1,27 @@
+{
+  "name": "backend-goweek",
+  "version": "0.0.1",
+  "description": "backend for application developed in the goweek, this backend use node.js, mongodb and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "goweek"
+  ],
+  "author": "Rafael Lima dos Reis",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "mongoose": "5.3.9",
+    "socket.io": "2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.6"
+  }
+}
